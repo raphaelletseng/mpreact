@@ -2,8 +2,14 @@
   padding-top: 20px;
 }
 
+
 #about {
   background-color: #2b2b2b;
+  padding-bottom: 20px;
+}
+#about{
+  color: #fff;
+  text-align: center;
 }
 
 #posts h1{
