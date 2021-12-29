@@ -10,7 +10,7 @@ function Navigation (){
 
         <div className ="container">
           <NavLink className = "navbar-brand" to="/">
-            Hi there!
+            Cat appreciation
           </NavLink>
         <div>
         <ul className = "navbar-nav ml-auto">

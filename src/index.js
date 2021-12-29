@@ -8,6 +8,8 @@ import {
   Navigation,
   Home,
   Blog,
+  Posts,
+  Post,
 } from "./components";
 
 
@@ -16,7 +18,10 @@ ReactDOM.render(
     <Navigation/>
     <Routes>
     <Route path="/" element = {<Home />}/>
-    <Route path="/blog" element ={<Blog/>}/>
+    <Route path="/blog" element ={<Blog/>}>
+      <Route path = "" element = {<Posts />}/>
+      <Route path = ":postSlug" element={<Post/>}/>
+    </Route>
     </Routes>
   </Router>,
   document.getElementById('root')
