@@ -1,16 +1,71 @@
+/*---- NAV --------------------- */
+
+#nav{
+  color: #fff;
+  font-size: 16px;
+  background-color: #2b2b2b;
+}
+#nav a{
+  color: #fff;
+}
+
+#nav a:hover{
+  text-decoration: underline;
+  opacity: 0.5;
+
+}
+
+#nav .navbar-brand{
+  font-size: 24px;
+}
+
+#nav i{
+  padding-right: 4px;
+}
+
+/*---- HOME --------------------- */
+
 #home .row{
   padding-top: 20px;
 }
 
 
+/*---- ABOUT --------------------- */
+
 #about {
   background-color: #2b2b2b;
   padding-bottom: 20px;
-}
-#about{
+  padding-top: 20px;
   color: #fff;
   text-align: center;
 }
+#about h4{
+  font-size: 20px;
+}
+
+#about .about-card{
+  background-color: #fff;
+  width: 70%;
+  border-radius: 5px;
+  margin: auto;
+  color: #2b2b2b;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+#about img{
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb( 0 0 0 / 0.2);
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#about .row{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*---- POSTS --------------------- */
 
 #posts h1{
   color: #2b2b2b;
@@ -20,6 +75,7 @@
   padding-left: 5px;
   color: #2b2b2b;
 }
+/*---- FOOTER --------------------- */
 
 #footer a{
   color: #fff;

@@ -10,7 +10,7 @@ TO deploy to gh pages:
 (Commit to repo here if you want)
 4. Deploy with `npm run deploy`
 5. Commit to Repo
-Your site should be published on the new gh-page branch 
+Your site should be published on the new gh-page branch
 
 # Getting Started with Create React App
 
