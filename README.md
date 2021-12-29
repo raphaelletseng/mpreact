@@ -1,7 +1,16 @@
-Note: To create a github react repo - 
+Note: To create a github react repo -
 1. Create a github repo and git clone with ssh key to your local.
 2. Navigate to the folder and run 'npx create-react-app .'
 3. Run git add -A, git commit -m "Message", and then git push :)
+
+TO deploy to gh pages:
+1. Add homepage to package.json ("homepage": "http://raphaelletseng.github.io/mpreact")
+2. Add to existing scripts: "predeploy": "npm run build", "deploy": "gh-pages -d build",
+3. Run `npm install gh-pages --save-dev` in repo root
+(Commit to repo here if you want)
+4. Deploy with `npm run deploy`
+5. Commit to Repo
+Your site should be published on the new gh-page branch 
 
 # Getting Started with Create React App
 
