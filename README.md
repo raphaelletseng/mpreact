@@ -1,3 +1,8 @@
+Note: To create a github react repo - 
+1. Create a github repo and git clone with ssh key to your local.
+2. Navigate to the folder and run 'npx create-react-app .'
+3. Run git add -A, git commit -m "Message", and then git push :)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
