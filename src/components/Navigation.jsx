@@ -8,16 +8,30 @@ function Navigation (){
     <section id = "nav">
       <nav className = "navbar navbar-expand">
         <div className =" container">
-          <NavLink className = "navbar-brand" to="/">
-            <i class="fa fa-paw"></i>Home
-          </NavLink>
-        <div>
+        <div class = "navlinks">
         <ul className = "navbar-nav ml-auto">
+          <li className = "nav-item">
+            <NavLink className = "nav-link" to="/">
+              <i class="fa fa-cat"></i>Home
+            </NavLink>
+          </li>
           <li className = "nav-item">
             <NavLink className = "nav-link" to="/blog">
               <i class="fa fa-feather"></i>
               Blog
             </NavLink>
+          </li>
+          <li className = "nav-item">
+            <a className = "nav-link" href= "https://raphaelletseng.github.io/art">
+              <i class="fa fa-palette"></i>
+              Art
+            </a>
+          </li>
+          <li className = "nav-item">
+            <a className = "nav-link" href= "https://raphaelletseng.github.io/art">
+              <i class="fa fa-paw"></i>
+              Cats
+            </a>
           </li>
 
         </ul>

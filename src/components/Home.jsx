@@ -16,8 +16,9 @@ function Home() {
 
 
           <div class="col">
-            <div class = "row">
+            <div class = "holder">
               <h2 class = "rw-sentence">
+                I'm Raphaëlle - I like to code.
                 <div class = "rw-words rw-words-1">
                   <span>Hello!</span>
                   <span>你好</span>
@@ -25,10 +26,9 @@ function Home() {
                 </div>
               </h2>
             </div>
-            
-
 
           </div>
+
 
           <div class = "col">
             <motion.div

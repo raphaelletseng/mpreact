@@ -8,9 +8,9 @@ function Footer() {
       <div class = "container">
         <div class="text-center center-block">
           <a href = "https://www.github.com/raphaelletseng/">
-          <i class = "fa fa-github"></i></a>
+          <i class = "fab fa-github"></i></a>
           <a href = "https://www.linkedin.com/in/rapha%C3%ABlletseng/">
-          <i class = "fa fa-linkedin"></i></a>
+          <i class = "fab fa-linkedin"></i></a>
         </div>
 
       </div>
