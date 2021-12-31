@@ -4,7 +4,7 @@ import "./layout.css";
 function Footer() {
   return (
     <div id = "footer">
-      <footer class="py-5 bg-dark">
+      <footer class="py-5">
       <div class = "container">
         <div class="text-center center-block">
           <a href = "https://www.github.com/raphaelletseng/">

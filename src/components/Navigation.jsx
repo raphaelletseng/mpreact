@@ -12,13 +12,13 @@ function Navigation (){
         <ul className = "navbar-nav ml-auto">
           <li className = "nav-item">
             <NavLink className = "nav-link" to="/">
-              <i class="fa fa-cat"></i>Home
+              <i class="fas fa-home"></i>Home
             </NavLink>
           </li>
           <li className = "nav-item">
-            <NavLink className = "nav-link" to="/blog">
-              <i class="fa fa-feather"></i>
-              Blog
+            <NavLink className = "nav-link" to="/cats">
+              <i class="fa fa-paw"></i>
+              Cats
             </NavLink>
           </li>
           <li className = "nav-item">
@@ -28,9 +28,9 @@ function Navigation (){
             </a>
           </li>
           <li className = "nav-item">
-            <a className = "nav-link" href= "https://raphaelletseng.github.io/art">
-              <i class="fa fa-paw"></i>
-              Cats
+            <a className = "nav-link" href= "https://raphaelletseng.github.io/blog">
+              <i class="fa fa-feather"></i>
+              Blog
             </a>
           </li>
 

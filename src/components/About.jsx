@@ -5,8 +5,8 @@ import Kido from "../assets/Kido.png";
 function About (){
   return (
     <section id = "about">
-      <div class = "container text-center" className="bg-dark">
-      
+      <div class = "container text-center">
+
 
       <div className = "about-card">
         <div class="row">

@@ -1,3 +1,11 @@
+Colours:
+Blue: #054a7f
+Teal: #78d1cc
+Yellow: #edbe6e
+Orange: #ed8f65
+Grey: #2b2b2b
+
+
 Note: To create a github react repo -
 1. Create a github repo and git clone with ssh key to your local.
 2. Navigate to the folder and run 'npx create-react-app .'
