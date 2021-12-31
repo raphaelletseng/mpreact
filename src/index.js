@@ -17,8 +17,8 @@ ReactDOM.render(
   <Router>
     <Navigation/>
     <Routes>
-    <Route path="/" element = {<Home />}/>
-    <Route path="/cats" element ={<Blog/>}>
+    <Route path="/mpreact" element = {<Home />}/>
+    <Route path="/mpreact/cats" element ={<Blog/>}>
       <Route path = "" element = {<Posts />}/>
       <Route path = ":postSlug" element={<Post/>}/>
     </Route>

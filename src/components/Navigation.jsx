@@ -11,12 +11,12 @@ function Navigation (){
         <div class = "navlinks">
         <ul className = "navbar-nav ml-auto">
           <li className = "nav-item">
-            <NavLink className = "nav-link" to="/">
+            <NavLink className = "nav-link" to="/mpreact">
               <i class="fas fa-home"></i>Home
             </NavLink>
           </li>
           <li className = "nav-item">
-            <NavLink className = "nav-link" to="/cats">
+            <NavLink className = "nav-link" to="/mpreact/cats">
               <i class="fa fa-paw"></i>
               Cats
             </NavLink>
