@@ -7,6 +7,7 @@ function Footer() {
       <footer class="py-5">
       <div class = "container">
         <div class="text-center center-block">
+          <h5 class = "footer-text"> Let's Connect! </h5>
           <a href = "https://www.github.com/raphaelletseng/">
           <i class = "fab fa-github"></i></a>
           <a href = "https://www.linkedin.com/in/rapha%C3%ABlletseng/">

@@ -10,14 +10,16 @@
 }
 
 #nav a:hover{
-  color: #fff;
-  text-decoration: underline;
-
-
 }
 
 #nav .nav-item {
   padding: 0 10px 10px;
+}
+
+#nav .nav-item:hover{
+  background-color: #78d1cc;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 #nav i{
@@ -188,4 +190,11 @@ footer {
 
 #footer a:hover{
   color: #ddd;
+}
+
+#footer .footer-text{
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: lowercase;
 }
