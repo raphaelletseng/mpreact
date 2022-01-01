@@ -4,12 +4,13 @@ import Land from "../assets/land-graphic.png";
 import {About, Footer} from "../components";
 import {motion} from 'framer-motion';
 import ParticlesBg from 'particles-bg';
+import Typewriter from 'typewriter-effect';
 
 function Home() {
   return (
     <div id="home">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 65 1440 150"><path fill="#edbf65" fill-opacity="1" d="M0,96L48,122.7C96,149,192,203,288,208C384,213,480,171,576,133.3C672,96,768,64,864,69.3C960,75,1056,117,1152,144C1248,171,1344,181,1392,186.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-      <ParticlesBg type = "cobweb" bg={true}/>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 60"><path fill="#edbf65" fill-opacity="1" d="M0,224L120,218.7C240,213,480,203,720,208C960,213,1200,235,1320,245.3L1440,256L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+
       <div class = "container">
         <div class = "row">
 
@@ -17,8 +18,21 @@ function Home() {
 
           <div class="col">
             <div class = "holder">
+
               <h2 class = "rw-sentence">
                 I'm Raphaëlle - I like to code.
+                <Typewriter class = "type"
+                  options = {{
+                    strings:[ "Developer",
+                  "Climbing enthusiast",
+                  "Tech Optimist",
+                  "Kitty Cuddler",],
+                  autoStart: true,
+                  loop: true,
+                  deleteSpeed: 40,
+
+                  }}
+                />
                 <div class = "rw-words rw-words-1">
                   <span>Hello!</span>
                   <span>你好</span>
@@ -31,6 +45,7 @@ function Home() {
 
 
           <div class = "col">
+            <ParticlesBg type = "cobweb" bg={true}/>
             <motion.div
               initial={{
                 opacity: 0,

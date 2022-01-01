@@ -5,7 +5,7 @@ import {Footer} from '../';
 function Blog() {
   return (
     <div id="blog">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 55 1440 190"><path fill="#edbe6e" fill-opacity="1" d="M0,160L48,181.3C96,203,192,245,288,240C384,235,480,181,576,144C672,107,768,85,864,74.7C960,64,1056,64,1152,80C1248,96,1344,128,1392,144L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 60"><path fill="#edbf65" fill-opacity="1" d="M0,224L120,218.7C240,213,480,203,720,208C960,213,1200,235,1320,245.3L1440,256L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
 
       <div class="container">
         <h1 className="text-center mt-5"> Cats! </h1>
