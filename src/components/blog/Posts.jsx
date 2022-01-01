@@ -9,7 +9,7 @@ function Posts(){
   return (
     <div id = "posts">
       <div class = "container">
-        <Link to="/blog/kido-baby">
+        <Link to="/mpreact/blog/val">
           <div class = "row align-items-center">
             <div class = "col">
             <img
@@ -25,6 +25,7 @@ function Posts(){
             </div>
           </div>
         </Link>
+<br/>
 
       </div>
 
