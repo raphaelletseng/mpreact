@@ -6,6 +6,7 @@ Orange: #ed8f65
 Grey: #2b2b2b
 
 ## Projects Page Notes:
+
 Feature detailed case studies
 While the primary purpose of your web design portfolio is to showcase your design capabilities, prospective clients will also want to see how your work helped businesses achieve success. That’s where the case study comes in. These descriptive tools allow you to explain the rationale behind your design and the context in which the project was created. By making a business case for your work, you’re in a better position to prove the value (and price) of your work to even the most skeptical prospect.
 
@@ -18,20 +19,21 @@ Success metrics and results — Sometimes it’s tough to get quantifiable resul
 Your role in the project — If you worked on a team, you should specify what your role was within the project and what contributions you made.
 Client testimonials — Client testimonials are another confidence booster for your prospects. These can be simple, two sentence quotes that show your client’s satisfaction with your work. Try asking for them at the tail-end of a web design project.
 
-
 Note: To create a github react repo -
+
 1. Create a github repo and git clone with ssh key to your local.
 2. Navigate to the folder and run 'npx create-react-app .'
 3. Run git add -A, git commit -m "Message", and then git push :)
 
 TO deploy to gh pages:
+
 1. Add homepage to package.json ("homepage": "http://raphaelletseng.github.io/mpreact")
 2. Add to existing scripts: "predeploy": "npm run build", "deploy": "gh-pages -d build",
 3. Run `npm install gh-pages --save-dev` in repo root
-(Commit to repo here if you want)
+   (Commit to repo here if you want)
 4. Deploy with `npm run deploy`
 5. Commit to Repo
-Your site should be published on the new gh-page branch
+   Your site should be published on the new gh-page branch
 
 # Getting Started with Create React App
 
