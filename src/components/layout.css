@@ -12,6 +12,14 @@
 #nav a:hover {
 }
 
+#nav .navbar-brand {
+  font-family: "opensans-bold", sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  font-weight: bolder;
+}
+
 #nav .nav-item {
   padding: 0 10px 10px;
 }
@@ -40,7 +48,6 @@
   color: #2b2b2b;
   margin: 6em auto auto;
   text-align: left;
-  -webkit-text-stroke: 0.4px #fff;
 
   /*text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);*/
 }
@@ -289,6 +296,63 @@
   }
 }
 
+/*---- FORM --------------------*/
+#form {
+  background-color: #ed8f65;
+}
+
+.form-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  width: 600px;
+  max-width: 100%;
+  padding: 1em 0.5em;
+  border-radius: 5px;
+  box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+form {
+  width: 100%;
+}
+label {
+  width: 100%;
+}
+.input-field {
+  border-radius: 5px;
+  width: 100%;
+  padding: 8px;
+  background-color: #e4e5ed;
+  margin-top: 4px;
+}
+
+.message {
+  resize: none;
+  border-radius: 5px;
+  height: 5em;
+  width: 100%;
+  background-color: #e4e5ed;
+  margin-top: 4px;
+}
+
+#success-response {
+  color: #2b2b2b;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+#error-response {
+  color: #2b2b2b;
+  text-align: center;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
 /*---- POSTS --------------------- */
 
 #posts h1 {
@@ -304,6 +368,7 @@
   width: 80%;
   margin-left: 6em;
 }
+
 /*---- FOOTER --------------------- */
 
 footer {
@@ -317,7 +382,7 @@ footer {
 }
 
 #footer a:hover {
-  color: #ddd;
+  color: #78d1cc;
 }
 
 #footer .footer-text {

@@ -5,21 +5,13 @@ import Kyc from "../assets/projects/knowyourcompany.png";
 import McgillAi from "../assets/projects/mcgillai.jpeg";
 import McgillAiLearn from "../assets/projects/mcgillailearn.png";
 import Typewriter from "typewriter-effect";
+import Subtitle from './Subtitle.jsx';
 
 function Projects() {
   return (
     <section id="projects">
       <div class="sec-title">
-        {" "}
-        <Typewriter
-          class="type"
-          options={{
-            strings: ["Projects!", "Stuff I've Worked On"],
-            autoStart: true,
-            deleteSpeed: 40,
-            loop: true,
-          }}
-        />{" "}
+      <Subtitle subtitleColor = "#2b2b2b">Projects</Subtitle>
       </div>
       <div class="row">
         <div class="col">

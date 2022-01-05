@@ -7,13 +7,14 @@ function Navigation() {
     <section id="nav">
       <nav className="navbar navbar-expand">
         <div className=" container">
+          <NavLink className = "navbar-brand" to= "/mpreact">
+            <i class="fas fa-home"></i>Raphaëlle Tseng
+          </NavLink>
+
+
           <div class="navlinks">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/mpreact">
-                  <i class="fas fa-home"></i>Home
-                </NavLink>
-              </li>
+              
               <li className="nav-item">
                 <NavLink className="nav-link" to="/mpreact/cats">
                   <i class="fa fa-paw"></i>

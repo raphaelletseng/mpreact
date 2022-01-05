@@ -1,7 +1,7 @@
 import React from "react";
 import "./layout.css";
 import Land from "../assets/land-graphic.png";
-import { About, Projects, Footer } from "../components";
+import { About, Projects, Footer, Form } from "../components";
 import { motion } from "framer-motion";
 import ParticlesBg from "particles-bg";
 import Typewriter from "typewriter-effect";
@@ -32,6 +32,7 @@ function Home() {
                       "Tech Optimist",
                       "Kitty Cuddler",
                     ],
+                    cursor: "<",
                     autoStart: true,
                     loop: true,
                     deleteSpeed: 40,
@@ -96,7 +97,10 @@ function Home() {
             d="M0,128L60,122.7C120,117,240,107,360,85.3C480,64,600,32,720,32C840,32,960,64,1080,85.3C1200,107,1320,117,1380,122.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
           ></path>
         </svg>
+
       </div>
+
+
       <Footer />
     </div>
   );

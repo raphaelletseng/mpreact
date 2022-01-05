@@ -3,6 +3,8 @@ import "./layout.css";
 import Kido from "../assets/Kido.png";
 import MeRocks from "../assets/me-rocks2.png";
 import Typewriter from "typewriter-effect";
+import Subtitle from './Subtitle.jsx';
+
 
 function About() {
   return (
@@ -14,18 +16,9 @@ function About() {
           </div>
           <div class=" about-card">
             <div class="col">
-              <h2>
-                {" "}
-                <Typewriter
-                  class="type"
-                  options={{
-                    strings: ["Hello!", "About Me"],
-                    autoStart: true,
-                    deleteSpeed: 40,
-                    loop: true,
-                  }}
-                />{" "}
-              </h2>
+
+              <Subtitle subtitleColor = "#054a7f">About Me</Subtitle>
+
               <p>
                 It was a bright cold day in April, and the clocks were striking
                 thirteen. Winston Smith, his chin nuzzled into his breast in an
