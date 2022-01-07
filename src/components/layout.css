@@ -240,6 +240,7 @@
   position: relative;
   width: 80%;
   margin: auto;
+  border-radius: 5px;
 }
 
 #projects .image {
@@ -288,6 +289,7 @@
 #projects .description-containter {
   background-color: #2b2b2b;
   opacity: 0.5;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 600px) {

@@ -4,7 +4,8 @@ import {EMAIL_REGEX} from './Regex.jsx';
 import Subtitle from './Subtitle.jsx';
 import './layout.css'
 import emailjs from "@emailjs/browser";
-
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.compat.css";
 
 const Form = props => {
   const [state, setState] = useState({});
@@ -63,9 +64,10 @@ const Form = props => {
 
   return (
     <section id = "form">
+    <ScrollAnimation animateIn="fadeInRight">
     <div className = "form-container">
       <Subtitle subtitleColor = "#054a7f">Get in touch</Subtitle>
-      <form
+        <form
         ref = {form}
         onSubmit= {handleSubmit}
 
@@ -123,6 +125,7 @@ const Form = props => {
 
 
     </div>
+    </ScrollAnimation>
     </section>
   );
 };

@@ -4,7 +4,8 @@ import Kido from "../assets/Kido.png";
 import MeRocks from "../assets/me-rocks2.png";
 import Typewriter from "typewriter-effect";
 import Subtitle from './Subtitle.jsx';
-
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.compat.css";
 
 function About() {
   return (
@@ -12,10 +13,15 @@ function About() {
       <div class="container text-center">
         <div class="row">
           <div class="col">
+          <ScrollAnimation animateIn="fadeInLeft">
             <img class="img-fluid" src={MeRocks} alt="Me on rocks" />
+            </ScrollAnimation>
           </div>
+
           <div class=" about-card">
+
             <div class="col">
+            <ScrollAnimation animateIn="fadeInRight">
 
               <Subtitle subtitleColor = "#054a7f">About Me</Subtitle>
 
@@ -26,8 +32,11 @@ function About() {
                 glass doors of Victory Mansions, though not quickly enough to
                 prevent a swirl of gritty dust from entering along with him.
               </p>
+              </ScrollAnimation>
             </div>
+
           </div>
+
         </div>
       </div>
     </section>
