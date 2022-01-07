@@ -1,21 +1,16 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 import PropTypes from 'prop-types';
 import {EMAIL_REGEX} from './Regex.jsx';
 import Subtitle from './Subtitle.jsx';
 import './layout.css'
+import emailjs from "@emailjs/browser";
 
-
-
-const encode = data => {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&');
-};
 
 const Form = props => {
   const [state, setState] = useState({});
   const [errorMessage, setErrorMessage] = useState(null);
   const [successMessage, setSuccessMessage] = useState(null);
+  const form = useRef();
 
   const handleChange = e => {
     setState({ ...state, [e.target.name]: e.target.value});
@@ -34,10 +29,14 @@ const Form = props => {
       setErrorMessage('Add the message you want to send!');
       return false;
     }
+    if (!state.name){
+      setErrorMessage('Please add your name so I can reply to you!');
+      return false;
+    }
     return true;
   };
 
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setErrorMessage(null);
     setSuccessMessage(null);
@@ -45,12 +44,14 @@ const Form = props => {
     if (!isFormValid()){
       return;
     }
-    fetch ('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded'},
-      body: encode({'form-name': props.formName, ...state}),
-    })
-      .then(() => {
+    emailjs.sendForm(
+      'service_0e12or8',
+      'template_ix5ezse',
+      form.current,
+      'user_DWyROBMas1zXGCdsffqV2'
+    )
+      .then((response) => {
+        console.log('Success!', response.status, response.text);
         setState({});
         setSuccessMessage('Thanks for sending me a message! I will get back to you soon!');
       })
@@ -61,14 +62,26 @@ const Form = props => {
   };
 
   return (
-  
+
     <div className = "form-container">
       <Subtitle subtitleColor = "#2b2b2b">Get in touch</Subtitle>
       <form
-        name = {props.formName}
-        method = "post"
+        ref = {form}
         onSubmit= {handleSubmit}
+
       >
+      <p>
+        <label>
+          Name <br/>
+          <input
+            className = "input-field"
+            type = "name"
+            name = "name"
+            value = {state.name ?? ''}
+            onChange = {handleChange}
+          />
+        </label>
+      </p>
         <p>
           <label>
             Email <br/>

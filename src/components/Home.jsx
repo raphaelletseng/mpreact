@@ -98,8 +98,9 @@ function Home() {
           ></path>
         </svg>
 
-      </div>
 
+      </div>
+      <Form/>
 
       <Footer />
     </div>
