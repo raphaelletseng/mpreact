@@ -124,6 +124,10 @@
   background-color: #78d1cc;
 }
 
+#home .orange-back {
+  background-color: #ed8f65;
+}
+
 #home .Typewriter__wrapper {
   font-size: 0.5em !important;
   color: #2b2b2b !important;
@@ -298,10 +302,13 @@
 
 /*---- FORM --------------------*/
 #form {
+  padding-bottom: 2em;
   background-color: #ed8f65;
 }
 
 .form-container {
+  font-family: "opensans-bold", sans-serif;
+  letter-spacing: 1px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -312,8 +319,8 @@
   padding: 1em 0.5em;
   border-radius: 5px;
   box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.3);
-  margin-bottom: 1em;
-  margin-top: 1em;
+  margin-bottom: 0em;
+  margin-top: 0em;
 }
 
 form {
@@ -322,15 +329,35 @@ form {
 label {
   width: 100%;
 }
+button {
+  border-radius: 5px;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+  background-color: #78d1cc;
+  border-color: #054a7f;
+  color: #054a7f;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: #054a7f;
+  color: #fff;
+}
+
 .input-field {
   border-radius: 5px;
   width: 100%;
   padding: 8px;
   background-color: #e4e5ed;
   margin-top: 4px;
+  border-color: #054a7f;
+  border-width: thin;
 }
 
 .message {
+  border-color: #054a7f;
+  border-width: thin;
   resize: none;
   border-radius: 5px;
   height: 5em;

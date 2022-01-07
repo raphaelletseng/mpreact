@@ -62,9 +62,9 @@ const Form = props => {
   };
 
   return (
-
+    <section id = "form">
     <div className = "form-container">
-      <Subtitle subtitleColor = "#2b2b2b">Get in touch</Subtitle>
+      <Subtitle subtitleColor = "#054a7f">Get in touch</Subtitle>
       <form
         ref = {form}
         onSubmit= {handleSubmit}
@@ -79,6 +79,7 @@ const Form = props => {
             name = "name"
             value = {state.name ?? ''}
             onChange = {handleChange}
+            placeholder = "Valentin"
           />
         </label>
       </p>
@@ -91,6 +92,7 @@ const Form = props => {
               name = "email"
               value = {state.email ?? ''}
               onChange = {handleChange}
+              placeholder = "valentin@kitty-central.com"
             />
           </label>
         </p>
@@ -121,7 +123,7 @@ const Form = props => {
 
 
     </div>
-
+    </section>
   );
 };
 
