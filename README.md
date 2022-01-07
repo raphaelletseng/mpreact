@@ -5,20 +5,6 @@ Yellow: #edbe6e
 Orange: #ed8f65
 Grey: #2b2b2b
 
-## Projects Page Notes:
-
-Feature detailed case studies
-While the primary purpose of your web design portfolio is to showcase your design capabilities, prospective clients will also want to see how your work helped businesses achieve success. That’s where the case study comes in. These descriptive tools allow you to explain the rationale behind your design and the context in which the project was created. By making a business case for your work, you’re in a better position to prove the value (and price) of your work to even the most skeptical prospect.
-
-Aside from visual design assets, a simple case study should also include the following elements:
-
-Project background and description — This provides context for the project including timelines, budgetary constraints, and the purpose for the design project.
-Project goals and objectives — Every design project should have tangible goals and objectives associated with the project purpose. Were you trying to optimize product pages for higher conversions? Drive more traffic to the site overall? Reduce cart abandon rates?
-Creative strategy — This is where you should explain your thought process behind the design. This could be in the form of design iterations, research processes, or creative insights. Don’t just show designs; explain why certain elements and imagery were used, and dive into detail about your creative process.
-Success metrics and results — Sometimes it’s tough to get quantifiable results from a client, but if you can show prospects that your work was able to help past clients achieve results, they’ll be more confident in your abilities to do the same for them.
-Your role in the project — If you worked on a team, you should specify what your role was within the project and what contributions you made.
-Client testimonials — Client testimonials are another confidence booster for your prospects. These can be simple, two sentence quotes that show your client’s satisfaction with your work. Try asking for them at the tail-end of a web design project.
-
 Note: To create a github react repo -
 
 1. Create a github repo and git clone with ssh key to your local.
