@@ -18,10 +18,9 @@ function About() {
             </ScrollAnimation>
           </div>
 
-          <div class=" about-card">
-
             <div class="col">
             <ScrollAnimation animateIn="fadeInRight">
+            <div class=" about-card">
 
               <Subtitle subtitleColor = "#054a7f">About Me</Subtitle>
 
@@ -32,8 +31,9 @@ function About() {
                 glass doors of Victory Mansions, though not quickly enough to
                 prevent a swirl of gritty dust from entering along with him.
               </p>
-              </ScrollAnimation>
+
             </div>
+            </ScrollAnimation>
 
           </div>
 

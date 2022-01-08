@@ -14,7 +14,12 @@ function Navigation() {
 
           <div class="navlinks">
             <ul className="navbar-nav ml-auto">
-              
+            {/* <li className="nav-item">
+              <NavLink className="nav-link" to="/mpreact/artwork">
+                <i class="fa fa-paw"></i>
+                Artio
+              </NavLink>
+            </li> */}
               <li className="nav-item">
                 <NavLink className="nav-link" to="/mpreact/cats">
                   <i class="fa fa-paw"></i>

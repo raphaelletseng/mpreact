@@ -1,0 +1,93 @@
+#projects2 .row {
+  width: 80%;
+  margin: auto;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 5px;
+  min-height: 400px;
+  box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.3);
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  text-align: center;
+  font-family: "opensans-bold", sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+
+img {
+  object-fit: contain;
+  max-width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.project-description {
+  padding: 15px;
+  object-fit: contain;
+}
+.project-description p {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.footer-container {
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  padding-top: 0px;
+}
+
+.link-col {
+  width: 50%;
+}
+.tech-col {
+  width: 50%;
+  text-align: right;
+  vertical-align: middle;
+}
+
+button {
+  padding: 5px 10px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+i {
+  font-size: 2em;
+  color: #fff;
+}
+
+.links {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.technologies {
+  color: #2b2b2b;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tech-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1rem;
+  opacity: 0.6;
+  list-style: none;
+  justify-content: center;
+  margin-left: -40px;
+}

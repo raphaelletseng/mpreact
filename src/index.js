@@ -4,13 +4,14 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Navigation, Home, Blog, Posts, Post } from "./components";
+import { Navigation, Home, Blog, Posts, Post, Artwork } from "./components";
 
 ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
       <Route path="/mpreact" element={<Home />} />
+      <Route path="/mpreact/artwork" element={<Artwork />} />
       <Route path="/mpreact/cats" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />

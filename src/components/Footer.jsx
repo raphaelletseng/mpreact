@@ -19,7 +19,7 @@ function Footer() {
         <div class="container">
           <p class="m-0 text-center text-white">
             raphaelletseng@gmail.com <br />
-            Copyright &copy; Your Website 2022
+            Copyright &copy; Raph Tseng 2022
           </p>
         </div>
       </footer>
