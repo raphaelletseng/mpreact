@@ -24,13 +24,14 @@ function About() {
 
               <Subtitle subtitleColor = "#054a7f">About Me</Subtitle>
 
-              <p>
-                It was a bright cold day in April, and the clocks were striking
-                thirteen. Winston Smith, his chin nuzzled into his breast in an
-                effort to escape the vile wind, slipped quickly through the
-                glass doors of Victory Mansions, though not quickly enough to
-                prevent a swirl of gritty dust from entering along with him.
-              </p>
+              <p> I'm Raph! I am currently an Associate Consultant at <a href ="https://www.slalom.com/"> Slalom</a>, Montreal, Canada,
+              where I work in data and analytics. In my free time I like to code.
+              I have a degree in Mathematics and Computer Science from McGill University.
+              <br/>
+              <br/>
+              I drink gallons of tea, thrive in warm weather, and enjoy rock climbing.
+              I have a soft spot for cats and occasionally foster for the <a href="https://www.spca.com/en/">SPCA</a>.
+</p>
 
             </div>
             </ScrollAnimation>

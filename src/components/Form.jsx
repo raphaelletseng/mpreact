@@ -64,7 +64,7 @@ const Form = props => {
 
   return (
     <section id = "form">
-    <ScrollAnimation animateIn="fadeInRight">
+    <ScrollAnimation animateIn="pulse">
     <div className = "form-container">
       <Subtitle subtitleColor = "#054a7f">drop me an email!</Subtitle>
         <form
