@@ -31,7 +31,7 @@ function About() {
               <br/>
               I drink gallons of tea, thrive in warm weather, and enjoy rock climbing.
               I have a soft spot for cats and occasionally foster for the <a href="https://www.spca.com/en/">SPCA</a>.
-</p>
+              </p>
 
             </div>
             </ScrollAnimation>

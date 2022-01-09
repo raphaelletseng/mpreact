@@ -48,7 +48,7 @@ button:focus {
   background-color: transparent;
   border-color: transparent;
 }
-button: hover {
+button:hover {
   background-color: #2b2b2b;
 }
 
