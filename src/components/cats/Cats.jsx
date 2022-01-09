@@ -3,14 +3,14 @@ import { Link, Outlet } from "react-router-dom";
 import { Footer } from "../";
 import Kido from "../../assets/Kido.png";
 import Val from "./cat-assets/valh1.jpeg";
-import "../layout.css";
+import "./cats.css";
 import Subtitle from "../Subtitle";
 
 
-function Blog() {
+function Cats() {
   return (
-    <div id="blog">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 100">
+    <div id="cat">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 105">
         <path
           fill="#edbf65"
           fill-opacity="1"
@@ -20,29 +20,34 @@ function Blog() {
 
       <div class="container">
         <div className="text-center mt-5">
-        <Subtitle subtitleColor = "#2b2b2b">Cats!</Subtitle>
+        <Subtitle subtitleColor = "#2b2b2b">
+          Cats I've Fostered!
+        </Subtitle>
         </div>
-        <div id="posts">
-          <div class="container">
+
+        <div id="cats">
+
             <Link to="/mpreact/cats/val">
               <div class="row align-items-center">
-                <div class="col">
+                <div class="col-md-8">
                   <img
-                    class="img-fluid rounded mb-4 mb-lg-0 shadow p-3 mb-5 bg-white "
+                    class="img-fluid rounded mb-4 mb-lg-0 shadow mb-5 bg-white "
                     src={Val}
                     alt="Val"
                   />
                 </div>
 
-                <div class="col-mb-5">
+                <div class="col-md-4">
+                  <div className = "cat-text">
                   <Subtitle subtitleColor = "#2b2b2b">Valentin</Subtitle>
                   <p> Valentin orange soft baby </p>
+                  </div>
                 </div>
               </div>
             </Link>
             <br />
           </div>
-        </div>
+
       </div>
 
 
@@ -60,4 +65,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default Cats;

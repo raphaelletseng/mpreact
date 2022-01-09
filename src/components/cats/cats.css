@@ -1,0 +1,28 @@
+/*---- POSTS --------------------- */
+#cats .row {
+  width: 90%;
+  margin: auto;
+}
+
+#cats p {
+  color: #2b2b2b;
+}
+
+.cat-text {
+  margin-left: auto;
+}
+@media screen and (max-width: 766px) {
+  .cat-text {
+    margin-left: 0%;
+  }
+}
+
+#cats img {
+  width: 100%;
+  margin-left: auto;
+}
+@media screen and (max-width: 766px) {
+  #cats img {
+    margin-left: 0%;
+  }
+}

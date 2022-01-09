@@ -163,19 +163,3 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-
-/*---- POSTS --------------------- */
-
-#posts h1 {
-  color: #2b2b2b;
-}
-
-#posts p {
-  padding-left: 5px;
-  color: #2b2b2b;
-}
-
-#posts img {
-  width: 80%;
-  margin-left: 6em;
-}
