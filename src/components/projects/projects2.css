@@ -1,10 +1,10 @@
 #projects2 .row {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
 
 .project-card {
-  background-image: linear-gradient(#fff, #fff, #78d1cc);
+  background-color: #fff;
   border-radius: 5px;
   min-height: 500px;
   box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.3);
@@ -13,7 +13,7 @@
   transform: scale(1.05);
 }
 
-h1 {
+.project-card h1 {
   text-align: center;
   font-family: "opensans-bold", sans-serif;
   font-size: 2em;
@@ -23,7 +23,7 @@ h1 {
   color: #2b2b2b;
 }
 
-img {
+.project-card img {
   object-fit: contain;
   max-width: 100%;
   border-top-right-radius: 5px;
@@ -56,12 +56,20 @@ img {
   vertical-align: middle;
 }
 
-button {
+.links button {
   padding: 5px 10px;
-
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
+  background-color: #78d1cc;
+  border-radius: 5px;
+  border-color: transparent;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.links button:hover {
+  background-color: #054a7f;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .links {
@@ -72,6 +80,9 @@ button {
   font-size: 2em;
   color: #fff;
 }
+.links a {
+  color: #fff;
+}
 
 .technologies {
   color: #2b2b2b;
@@ -80,6 +91,8 @@ button {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .tech-list {

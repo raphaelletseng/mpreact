@@ -1,18 +1,27 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./layout.css";
+import "./nav.css";
+
 
 function Navigation() {
   return (
     <section id="nav">
-      <nav className="navbar navbar-expand">
+      <nav className="navbar navbar-expand-lg">
         <div className=" container">
-          <NavLink className = "navbar-brand" to= "/mpreact">
+          <a className = "navbar-brand" href= "/mpreact">
             <i class="fas fa-home"></i>Raphaëlle Tseng
-          </NavLink>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <i class="fas fa-bars"></i>
+              </span>
+          </button>
 
 
-          <div class="navlinks">
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+
             <ul className="navbar-nav ml-auto">
             {/* <li className="nav-item">
               <NavLink className="nav-link" to="/mpreact/artwork">
@@ -20,11 +29,12 @@ function Navigation() {
                 Artio
               </NavLink>
             </li> */}
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/mpreact/cats">
+              <li className="nav-item active">
+                <a className="nav-link" href="/mpreact/cats">
                   <i class="fa fa-paw"></i>
                   Cats
-                </NavLink>
+                  <span class="sr-only">(current)</span>
+                </a>
               </li>
               <li className="nav-item">
                 <a

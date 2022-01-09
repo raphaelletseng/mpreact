@@ -1,11 +1,11 @@
 import React from "react";
-import "./layout.css";
-import Datallite from "../assets/projects/datallite.jpeg";
-import Kyc from "../assets/projects/knowyourcompany.png";
-import McgillAi from "../assets/projects/mcgillai.jpeg";
-import McgillAiLearn from "../assets/projects/mcgillailearn.png";
+import "./projects.css";
+import Datallite from "../../assets/projects/datallite.jpeg";
+import Kyc from "../../assets/projects/knowyourcompany.png";
+import McgillAi from "../../assets/projects/mcgillai.jpeg";
+import McgillAiLearn from "../../assets/projects/mcgillailearn.png";
 import Typewriter from "typewriter-effect";
-import Subtitle from './Subtitle.jsx';
+import Subtitle from '../Subtitle.jsx';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.compat.css";
 

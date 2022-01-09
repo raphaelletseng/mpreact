@@ -9,7 +9,7 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <div id="home">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 60">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 80">
         <path
           fill="#edbf65"
           fill-opacity="1"

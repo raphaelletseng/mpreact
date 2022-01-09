@@ -1,8 +1,8 @@
 import React, {useState, useRef} from 'react';
 import PropTypes from 'prop-types';
 import {EMAIL_REGEX} from './Regex.jsx';
-import Subtitle from './Subtitle.jsx';
-import './layout.css'
+import Subtitle from '../Subtitle.jsx';
+import './form.css'
 import emailjs from "@emailjs/browser";
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.compat.css";
@@ -113,7 +113,7 @@ const Form = props => {
         </p>
 
         <p style={{ textAlign: 'center' }}>
-          <button type="submit">
+          <button className = "form-button" type="submit">
             Send{' '}
           </button>
         </p>

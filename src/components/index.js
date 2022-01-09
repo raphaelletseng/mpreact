@@ -1,11 +1,11 @@
-export { default as Navigation } from "./Navigation";
-export { default as Footer } from "./Footer";
+export { default as Navigation } from "./nav/Navigation";
+export { default as Footer } from "./footer/Footer";
 export { default as Home } from "./Home";
 export { default as Blog } from "./blog/Blog";
 export { default as Post } from "./blog/Post";
 export { default as Posts } from "./blog/Posts";
 export { default as About } from "./About";
-export { default as Projects } from "./Projects";
-export { default as Form } from "./Form";
+export { default as Projects } from "./projects/Projects";
+export { default as Form } from "./form/Form";
 export { default as Artwork } from "./Artwork";
-export { default as Projects2 } from "./Projects2";
+export { default as Projects2 } from "./projects/Projects2";

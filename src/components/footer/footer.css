@@ -1,0 +1,22 @@
+/*---- FOOTER --------------------- */
+
+footer {
+  background-color: #edbe6e;
+}
+
+#footer a {
+  color: #054a7f;
+  padding: 15px;
+  font-size: 40px;
+}
+
+#footer a:hover {
+  color: #ed8f65;
+}
+
+#footer .footer-text {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
