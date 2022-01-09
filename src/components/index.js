@@ -1,9 +1,8 @@
 export { default as Navigation } from "./nav/Navigation";
 export { default as Footer } from "./footer/Footer";
 export { default as Home } from "./Home";
-export { default as Blog } from "./blog/Blog";
-export { default as Post } from "./blog/Post";
-export { default as Posts } from "./blog/Posts";
+export { default as Cats } from "./cats/Cats";
+export { default as Val } from "./cats/Val";
 export { default as About } from "./About";
 export { default as Projects } from "./projects/Projects";
 export { default as Form } from "./form/Form";

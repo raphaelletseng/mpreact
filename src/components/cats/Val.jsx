@@ -1,9 +1,12 @@
 import React, { useEffect } from "react";
+import { Footer } from "../";
+import Subtitle from "../Subtitle";
+
 import { useParams } from "react-router";
-import Valh1 from "./blog-assets/valh1.jpeg";
-import Valh2 from "./blog-assets/valh2.jpeg";
-import Valv1 from "./blog-assets/valv1.jpeg";
-import Valv2 from "./blog-assets/valv2.jpeg";
+import Valh1 from "./cat-assets/valh1.jpeg";
+import Valh2 from "./cat-assets/valh2.jpeg";
+import Valv1 from "./cat-assets/valv1.jpeg";
+import Valv2 from "./cat-assets/valv2.jpeg";
 
 function Post() {
   let { postSlug } = useParams();
@@ -13,7 +16,7 @@ function Post() {
   return (
     <div className="home">
       <div class="container">
-        <h1> Valentin BABY </h1>
+        <Subtitle subtitleColor="#2b2b2b">Valentin Baby </Subtitle>
 
         <p> Pictures of Val </p>
 
@@ -28,7 +31,9 @@ function Post() {
           </div>
         </div>
       </div>
+        <Footer/>
     </div>
+
   );
 }
 export default Post;

@@ -4,7 +4,7 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Navigation, Home, Blog, Posts, Post, Artwork } from "./components";
+import { Navigation, Home, Cats, Posts, Val, Artwork } from "./components";
 
 ReactDOM.render(
   <Router>
@@ -12,10 +12,9 @@ ReactDOM.render(
     <Routes>
       <Route path="/mpreact" element={<Home />} />
       <Route path="/mpreact/artwork" element={<Artwork />} />
-      <Route path="/mpreact/cats" element={<Blog />}>
-        <Route path="" element={<Posts />} />
-        <Route path=":postSlug" element={<Post />} />
-      </Route>
+      <Route path="/mpreact/cats" element={<Cats />} />
+
+      <Route path="/mpreact/cats/val" element={<Val />} />
     </Routes>
   </Router>,
   document.getElementById("root")
