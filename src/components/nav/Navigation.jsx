@@ -30,11 +30,11 @@ function Navigation() {
               </NavLink>
             </li> */}
               <li className="nav-item active">
-                <a className="nav-link" href="/mpreact/cats">
+                <NavLink className="nav-link" to="/mpreact/cats">
                   <i class="fa fa-paw"></i>
                   Cats
                   <span class="sr-only">(current)</span>
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
                 <a

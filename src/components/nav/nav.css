@@ -28,28 +28,26 @@
 }
 
 #nav i {
-  padding-right: 4px;
-  padding-left: 4px;
+  margin-right: 4px;
+  margin-left: 4px;
 }
 
 #nav .navlinks {
   margin: 0;
 }
-
-.navbar-toggler {
-  border-color: transparent;
+button {
+  outline-color: transparent;
 }
-
 button:focus {
   outline-color: transparent;
-  background-color: transparent;
-}
-.navbar-toggler {
-  background-color: transparent;
   border-color: transparent;
 }
 button:hover {
-  background-color: #2b2b2b;
+  background-color: transparent;
+}
+.navbar-toggler:focus {
+  outline: none;
+  border-color: transparent;
 }
 
 .navbar-toggler-icon i {

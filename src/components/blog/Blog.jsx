@@ -5,7 +5,7 @@ import { Footer } from "../";
 function Blog() {
   return (
     <div id="blog">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 60">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 100">
         <path
           fill="#edbf65"
           fill-opacity="1"

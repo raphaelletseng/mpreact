@@ -75,11 +75,14 @@
 }
 
 #home .landing-img {
+  margin-top: 10%;
   max-width: 120%;
   height: auto;
+  overflow: hidden;
 }
 @media screen and (max-width: 766px) {
   #home .landing-img {
+    margin-top: 0%;
     max-width: 100%;
   }
 }
@@ -110,7 +113,7 @@
 
 @media (max-width: 767px) {
   #home .Typewriter__wrapper {
-    font-size: 0.3em !important;
+    font-size: 0.4em !important;
     font-weight: 500 !important;
     position: absolute !important;
   }
@@ -144,6 +147,11 @@
   padding: 10px;
   text-align: left;
   position: relative;
+}
+@media screen and (max-width: 750px) {
+  #about .about-card {
+    margin-top: 10%;
+  }
 }
 
 #about img {
