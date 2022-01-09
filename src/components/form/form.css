@@ -53,6 +53,9 @@ label {
   border-color: #054a7f;
   border-width: thin;
 }
+.input-field:focus {
+  outline-color: #ed8f65;
+}
 
 .message {
   border-color: #054a7f;
@@ -63,6 +66,9 @@ label {
   width: 100%;
   background-color: #e4e5ed;
   margin-top: 4px;
+}
+.message:focus {
+  outline-color: #ed8f65;
 }
 
 #success-response {

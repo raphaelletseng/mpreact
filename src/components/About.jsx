@@ -12,13 +12,13 @@ function About() {
     <section id="about">
       <div class="container text-center">
         <div class="row">
-          <div class="col">
+          <div class="col-md">
           <ScrollAnimation animateIn="fadeInLeft">
             <img class="img-fluid" src={MeRocks} alt="Me on rocks" />
             </ScrollAnimation>
           </div>
 
-            <div class="col">
+            <div class="col-md">
             <ScrollAnimation animateIn="fadeInRight">
             <div class=" about-card">
 

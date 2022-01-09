@@ -9,7 +9,7 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <div id="home">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 80">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 110">
         <path
           fill="#edbf65"
           fill-opacity="1"
@@ -19,7 +19,7 @@ function Home() {
 
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-md">
             <div class="holder">
               <h2 class="rw-sentence">
                 I'm Raphaëlle - I like to code.
@@ -47,8 +47,10 @@ function Home() {
             </div>
           </div>
 
-          <div class="col">
+          <div class="col-md">
+            <div className = "particles-div">
             <ParticlesBg type="cobweb" bg={true} />
+            </div>
             <motion.div
               initial={{
                 opacity: 0,
