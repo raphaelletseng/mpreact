@@ -212,7 +212,7 @@ function Projects2() {
       </div>
       <div className = "project-description">
         <p className = "sub-p">
-        Winter 2021
+        McGill AI Learnathon Website | Winter 2021
         </p>
         <p>
         A website built for the 2021 McGill AI Learnathon,
