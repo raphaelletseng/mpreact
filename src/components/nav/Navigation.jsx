@@ -8,7 +8,7 @@ function Navigation() {
     <section id="nav">
       <nav className="navbar navbar-expand-lg">
         <div className=" container">
-          <a className = "navbar-brand" href= "/mpreact">
+          <a className = "navbar-brand" href= "/">
             <i class="fas fa-home"></i>Raphaëlle Tseng
           </a>
 
@@ -28,14 +28,14 @@ function Navigation() {
                 <i class="fa fa-paw"></i>
                 Artio
               </NavLink>
-            </li>
+            </li>*/}
               <li className="nav-item active">
-                <NavLink className="nav-link" to="/mpreact/cats">
+                <NavLink className="nav-link" to="/cats">
                   <i class="fa fa-paw"></i>
                   Cats
                   <span class="sr-only">(current)</span>
                 </NavLink>
-              </li>*/}
+              </li>
               <li className="nav-item">
                 <a
                   className="nav-link"

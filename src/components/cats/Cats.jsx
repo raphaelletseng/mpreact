@@ -27,7 +27,7 @@ function Cats() {
 
         <div id="cats">
 
-            <Link to="/mpreact/cats/val">
+            <Link to="/cats/val">
               <div class="row align-items-center">
                 <div class="col-md-8">
                   <img
@@ -46,7 +46,7 @@ function Cats() {
               </div>
             </Link>
 
-            <Link to="/mpreact/cats/kido">
+            <Link to="/cats/kido">
               <div class="row align-items-center">
 
 

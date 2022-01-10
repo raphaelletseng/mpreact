@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
   Home,
@@ -15,15 +15,16 @@ import {
 } from "./components";
 
 ReactDOM.render(
-  <Router>
+  <Router base>
     <Navigation />
-    <Routes>
-      <Route path="/mpreact" element={<Home />} />
-      <Route path="/mpreact/artwork" element={<Artwork />} />
-      <Route path="/mpreact/cats" element={<Cats />} />
 
-      <Route path="/mpreact/cats/val" element={<Val />} />
-      <Route path="/mpreact/cats/kido" element={<Kido />} />
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/artwork" element={<Artwork />} />
+      <Route path="/cats" element={<Cats />} />
+
+      <Route path="/cats/val" element={<Val />} />
+      <Route path="/cats/kido" element={<Kido />} />
     </Routes>
   </Router>,
   document.getElementById("root")
