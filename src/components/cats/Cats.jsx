@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import { Footer } from "../";
-import Kido from "../../assets/Kido.png";
+import Kido from "./cat-assets/Kido.png";
 import Val from "./cat-assets/valh1.jpeg";
 import "./cats.css";
 import Subtitle from "../Subtitle";
@@ -45,7 +45,26 @@ function Cats() {
                 </div>
               </div>
             </Link>
-            <br />
+
+            <Link to="/mpreact/cats/kido">
+              <div class="row align-items-center">
+
+
+                <div class="col-md-4">
+                  <div className = "cat-text">
+                  <Subtitle subtitleColor = "#2b2b2b">Kido</Subtitle>
+                  <p> Kido regal gremlin panther </p>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <img
+                    class="img-fluid rounded mb-4 mb-lg-0 shadow mb-5 bg-white "
+                    src={Kido}
+                    alt="Kido"
+                  />
+                </div>
+              </div>
+            </Link>
           </div>
 
       </div>

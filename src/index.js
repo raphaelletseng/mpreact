@@ -4,7 +4,15 @@ import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Navigation, Home, Cats, Posts, Val, Artwork } from "./components";
+import {
+  Navigation,
+  Home,
+  Cats,
+  Posts,
+  Val,
+  Kido,
+  Artwork,
+} from "./components";
 
 ReactDOM.render(
   <Router>
@@ -15,6 +23,7 @@ ReactDOM.render(
       <Route path="/mpreact/cats" element={<Cats />} />
 
       <Route path="/mpreact/cats/val" element={<Val />} />
+      <Route path="/mpreact/cats/kido" element={<Kido />} />
     </Routes>
   </Router>,
   document.getElementById("root")

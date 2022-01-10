@@ -1,6 +1,5 @@
 import React from "react";
 import "./layout.css";
-import Kido from "../assets/Kido.png";
 import MeRocks from "../assets/me-rocks2.png";
 import Typewriter from "typewriter-effect";
 import Subtitle from './Subtitle.jsx';

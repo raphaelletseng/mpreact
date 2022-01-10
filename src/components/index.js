@@ -3,6 +3,7 @@ export { default as Footer } from "./footer/Footer";
 export { default as Home } from "./Home";
 export { default as Cats } from "./cats/Cats";
 export { default as Val } from "./cats/Val";
+export { default as Kido } from "./cats/Kido";
 export { default as About } from "./About";
 export { default as Projects } from "./projects/Projects";
 export { default as Form } from "./form/Form";
