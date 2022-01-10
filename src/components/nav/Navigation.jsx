@@ -58,7 +58,7 @@ function Navigation() {
           </div>
         </div>
       </nav>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 110">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 120">
         <path
           fill="#edbe6e"
           fill-opacity="1"

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+#gallery {
+  margin-top: 6em;
+}
+
 #gallery img,
 #gallery picture {
   max-width: 100%;

@@ -10,8 +10,8 @@ import Subtitle from "../Subtitle";
 
 function Cats() {
   return (
-    <section id="cat">
-      
+    <section id="cats">
+
 
       <div class="container">
         <div className="text-center mt-5">

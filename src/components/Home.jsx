@@ -9,10 +9,11 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <div id="home">
-    
+
 
       <div class="container">
         <div class="row">
+
           <div class="col-md">
             <div class="holder">
               <h2 class="rw-sentence">
@@ -41,7 +42,7 @@ function Home() {
             </div>
           </div>
 
-          <div class="col-md">
+          <div class="col-md order-first order-md-last">
             <div className = "particles-div">
             <ParticlesBg type="cobweb" bg={true} />
             </div>
