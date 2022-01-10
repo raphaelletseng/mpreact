@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#gallery img,
+#gallery picture {
+  max-width: 100%;
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0 0 0.5rem hsl(0 100% 0% / 0.6);
+  margin: 1em 0em;
+}
+
+.container {
+  padding: 0rem 2rem;
+  max-width: 95%;
+  margin: 0 auto;
+}

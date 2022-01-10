@@ -9,13 +9,7 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <div id="home">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 110">
-        <path
-          fill="#edbf65"
-          fill-opacity="1"
-          d="M0,224L120,218.7C240,213,480,203,720,208C960,213,1200,235,1320,245.3L1440,256L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
-        ></path>
-      </svg>
+    
 
       <div class="container">
         <div class="row">
@@ -39,8 +33,8 @@ function Home() {
                   }}
                 />
                 <div class="rw-words rw-words-1">
-                  <span>Hello!</span>
-                  <span>你好</span>
+                  <span>Hello 👋</span>
+                  <span>你好! </span>
                   <span>Salut :) </span>
                 </div>
               </h2>

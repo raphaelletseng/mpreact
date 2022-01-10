@@ -11,6 +11,7 @@ import {
   Posts,
   Val,
   Kido,
+  Reglisse,
   Artwork,
 } from "./components";
 
@@ -25,6 +26,7 @@ ReactDOM.render(
 
       <Route path="/cats/val" element={<Val />} />
       <Route path="/cats/kido" element={<Kido />} />
+      <Route path="/cats/reglisse" element={<Reglisse />} />
     </Routes>
   </Router>,
   document.getElementById("root")

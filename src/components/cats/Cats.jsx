@@ -1,22 +1,17 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import { Footer } from "../";
-import Kido from "./cat-assets/Kido.png";
-import Val from "./cat-assets/valh1.jpeg";
+import Kido from "./cat-assets/kido/Kido.png";
+import Val from "./cat-assets/val/valh1.jpeg";
+import Reglisse from "./cat-assets/reglisse/regh1.jpeg";
 import "./cats.css";
 import Subtitle from "../Subtitle";
 
 
 function Cats() {
   return (
-    <div id="cat">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 105">
-        <path
-          fill="#edbf65"
-          fill-opacity="1"
-          d="M0,224L120,218.7C240,213,480,203,720,208C960,213,1200,235,1320,245.3L1440,256L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
-        ></path>
-      </svg>
+    <section id="cat">
+      
 
       <div class="container">
         <div className="text-center mt-5">
@@ -65,6 +60,25 @@ function Cats() {
                 </div>
               </div>
             </Link>
+
+            <Link to="/cats/reglisse">
+              <div class="row align-items-center">
+                <div class="col-md-8">
+                  <img
+                    class="img-fluid rounded mb-4 mb-lg-0 shadow mb-5 bg-white "
+                    src={Reglisse}
+                    alt="Reglisse"
+                  />
+                </div>
+
+                <div class="col-md-4">
+                  <div className = "cat-text">
+                  <Subtitle subtitleColor = "#2b2b2b">Réglisse</Subtitle>
+                  <p> Réglisse wild flower bed snoozer </p>
+                  </div>
+                </div>
+              </div>
+            </Link>
           </div>
 
       </div>
@@ -80,7 +94,7 @@ function Cats() {
       </svg>
 
       <Footer />
-    </div>
+    </section>
   );
 }
 

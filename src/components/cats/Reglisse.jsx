@@ -3,13 +3,12 @@ import { Footer } from "../";
 import Subtitle from "../Subtitle";
 
 import { useParams } from "react-router";
-import Valh1 from "./cat-assets/val/valh1.jpeg";
-import Valh2 from "./cat-assets/val/valh2.jpeg";
-import Valv1 from "./cat-assets/val/valv1.jpeg";
-import Valv2 from "./cat-assets/val/valv2.jpeg";
+import Valh1 from "./cat-assets/reglisse/regv2.jpeg";
+import Valh2 from "./cat-assets/reglisse/regv3.jpeg";
+import Valv1 from "./cat-assets/reglisse/regv4.jpeg";
+import Valv2 from "./cat-assets/reglisse/regv5.jpeg";
 
-function Val() {
-
+function Reglisse() {
 
   return (
     <div className="home">
@@ -21,9 +20,9 @@ function Val() {
       ></path>
     </svg>
       <div class="container">
-        <Subtitle subtitleColor="#2b2b2b">Valentin Baby </Subtitle>
+        <Subtitle subtitleColor="#2b2b2b">Réglisse Minou </Subtitle>
 
-        <p> Pictures of Val </p>
+        <p> Pictures of Réglisse </p>
 
         <div class="row">
           <div class="col">
@@ -48,4 +47,4 @@ function Val() {
 
   );
 }
-export default Val;
+export default Reglisse;
