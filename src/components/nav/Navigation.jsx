@@ -29,8 +29,8 @@ function Navigation() {
                 Art
               </NavLink>
             </li>
-              <li className="nav-item active">
-                <NavLink className="nav-link" to="/cats">
+              <li className="nav-item">
+                <NavLink exact activeClassName="active" className="nav-link" to="/cats">
                   <i class="fa fa-paw"></i>
                   Cats
                   <span class="sr-only">(current)</span>
@@ -58,7 +58,7 @@ function Navigation() {
           </div>
         </div>
       </nav>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 120">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 250">
         <path
           fill="#edbe6e"
           fill-opacity="1"
