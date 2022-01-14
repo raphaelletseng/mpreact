@@ -3,10 +3,10 @@ import { Footer } from "../";
 import Subtitle from "../Subtitle";
 
 import { useParams } from "react-router";
-import Valh1 from "./cat-assets/val/valh1.jpeg";
-import Valh2 from "./cat-assets/val/valh2.jpeg";
-import Valv1 from "./cat-assets/val/valv1.jpeg";
-import Valv2 from "./cat-assets/val/valv2.jpeg";
+import Valh1 from "./cat-assets/val/valh1.jpg";
+import Valh2 from "./cat-assets/val/valh2.jpg";
+import Valv1 from "./cat-assets/val/valv1.jpg";
+import Valv2 from "./cat-assets/val/valv2.jpg";
 
 function Val() {
 

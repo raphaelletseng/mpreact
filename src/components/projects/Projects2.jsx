@@ -1,21 +1,15 @@
 import React from "react";
-import Datallite from "../../assets/projects/datallite.jpeg";
-import Kyc from "../../assets/projects/knowyourcompany.png";
-import McgillAi from "../../assets/projects/mcgillai.jpeg";
-import McgillAiLearn from "../../assets/projects/mcgillailearn.png";
 import Typewriter from "typewriter-effect";
 import Subtitle from '../Subtitle.jsx';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.compat.css";
 import './projects2.css';
-import Datallite2 from "../../assets/datallite.png";
-import Datallite3 from "../../assets/projects/datallite.jpeg";
-import Pytorch from "../../assets/technologies/pytorch.png";
 
-import Kyc2 from "../../assets/projects/kyc.png";
-import McGillAI from "../../assets/projects/mcgillai.jpeg";
-import McGillLearn from "../../assets/projects/mcgillailearn.png";
-import FairPrivate from "../../assets/projects/fairlearn-privacy.png";
+import Kyc2 from "../../assets/projects/kyc-rs.jpg";
+import McGillAI from "../../assets/projects/mcgillai-rs.jpg";
+import FairPrivate from "../../assets/projects/fairlearn-privacy-rs.jpg";
+import Datallite from "../../assets/projects/datallite-rs.jpg";
+import McGillLearn from "../../assets/projects/mcgillailearn-rs.jpg";
 
 
 
@@ -35,7 +29,7 @@ function Projects2() {
           <ScrollAnimation animateIn="flipInY">
           <div className = "project-card">
 
-            <img src = {Datallite3} className = "graphic"/>
+            <img src = {Datallite} className = "graphic"/>
             <div className = "links">
               <button><a href = "https://github.com/RayanAlim/Datallite" target = "_blank" rel="noreferrer noopener">
                 {/*}<i class="fab fa-github"></i>*/}

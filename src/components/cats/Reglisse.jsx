@@ -3,10 +3,10 @@ import { Footer } from "../";
 import Subtitle from "../Subtitle";
 
 import { useParams } from "react-router";
-import Valh1 from "./cat-assets/reglisse/regv2.jpeg";
-import Valh2 from "./cat-assets/reglisse/regv3.jpeg";
-import Valv1 from "./cat-assets/reglisse/regv4.jpeg";
-import Valv2 from "./cat-assets/reglisse/regv5.jpeg";
+import Valh1 from "./cat-assets/reglisse/regv2.jpg";
+import Valh2 from "./cat-assets/reglisse/regv3.jpg";
+import Valv1 from "./cat-assets/reglisse/regv4.jpg";
+import Valv2 from "./cat-assets/reglisse/regv5.jpg";
 
 function Reglisse() {
 

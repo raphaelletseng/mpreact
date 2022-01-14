@@ -1,9 +1,9 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
 import { Footer } from "../";
-import Kido from "./cat-assets/kido/Kido.png";
-import Val from "./cat-assets/val/valh1.jpeg";
-import Reglisse from "./cat-assets/reglisse/regh1.jpeg";
+import Kido from "./cat-assets/kido/Kido.jpg";
+import Val from "./cat-assets/val/valh1.jpg";
+import Reglisse from "./cat-assets/reglisse/regh1.jpg";
 import "./cats.css";
 import Subtitle from "../Subtitle";
 

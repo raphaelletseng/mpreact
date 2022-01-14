@@ -3,10 +3,10 @@ import { Footer } from "../";
 import Subtitle from "../Subtitle";
 
 import { useParams } from "react-router";
-import Kido1 from "./cat-assets/kido/kido1.jpeg";
-import Kido2 from "./cat-assets/kido/kido2.jpeg";
-import Kido3 from "./cat-assets/kido/kido3.jpeg";
-import Kido4 from "./cat-assets/kido/kido4.jpeg";
+import Kido1 from "./cat-assets/kido/kido1.jpg";
+import Kido2 from "./cat-assets/kido/kido2.jpg";
+import Kido3 from "./cat-assets/kido/kido3.jpg";
+import Kido4 from "./cat-assets/kido/kido4.jpg";
 
 function Kido() {
 
