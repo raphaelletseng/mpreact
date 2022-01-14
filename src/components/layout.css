@@ -90,14 +90,17 @@ body {
 
 #home .landing-img {
   margin-top: 10%;
-  max-width: 120%;
+  width: 120%;
+  max-width: 40vw;
   height: auto;
   overflow: hidden;
 }
 @media screen and (max-width: 766px) {
   #home .landing-img {
     margin-top: 0%;
-    max-width: 100%;
+    margin-left: 10%;
+    margin-right: auto;
+    max-width: 80%;
   }
 }
 
@@ -140,7 +143,6 @@ body {
 
 #about {
   background-color: #054a7f;
-
   color: #fff;
   text-align: center;
 }
