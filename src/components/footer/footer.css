@@ -2,10 +2,11 @@
 
 footer {
   background-color: #edbe6e;
+  color: ##032b4a;
 }
 
 #footer a {
-  color: #054a7f;
+  color: #032b4a;
   padding: 15px;
   font-size: 40px;
 }
@@ -15,7 +16,7 @@ footer {
 }
 
 #footer .footer-text {
-  color: #fff;
+  color: ##032b4a;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: lowercase;

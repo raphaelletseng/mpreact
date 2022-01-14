@@ -1,8 +1,8 @@
 Colours:
-Blue: #054a7f
+Blue: #054a7f (darker accessible: #032B4A)
 Teal: #78d1cc
 Yellow: #edbe6e
-Orange: #ed8f65
+Orange: #ed8f65 (darker accessible: #963406)
 Grey: #2b2b2b
 
 Note: To create a github react repo -

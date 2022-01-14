@@ -21,7 +21,7 @@ function About() {
             <ScrollAnimation animateIn="fadeInRight">
             <div class=" about-card">
 
-              <Subtitle subtitleColor = "#054a7f">About Me</Subtitle>
+              <Subtitle subtitleColor = "#032B4A">About Me</Subtitle>
 
               <p> I'm Raph! I am currently an Associate Consultant at <a href ="https://www.slalom.com/"> Slalom</a>, Montreal, Canada,
               where I work in data and analytics. In my free time I like to code.

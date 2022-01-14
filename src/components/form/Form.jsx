@@ -66,7 +66,7 @@ const Form = props => {
     <section id = "form">
     <ScrollAnimation animateIn="pulse">
     <div className = "form-container">
-      <Subtitle subtitleColor = "#054a7f">drop me an email!</Subtitle>
+      <Subtitle subtitleColor = "#032B4A">drop me an email!</Subtitle>
         <form
         ref = {form}
         onSubmit= {handleSubmit}

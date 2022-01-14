@@ -18,7 +18,7 @@ function Projects2() {
     <section id="projects2">
       <div class="sec-title">
 
-      <Subtitle subtitleColor = "#fff">Projects</Subtitle>
+      <Subtitle subtitleColor = "#032B4A">Projects</Subtitle>
 
       </div>
       <div class="row">
@@ -29,7 +29,7 @@ function Projects2() {
           <ScrollAnimation animateIn="flipInY">
           <div className = "project-card">
 
-            <img src = {Datallite} className = "graphic"/>
+            <img src = {Datallite} alt="Project Graphic for Datallite"/>
             <div className = "links">
               <button><a href = "https://github.com/RayanAlim/Datallite" target = "_blank" rel="noreferrer noopener">
                 {/*}<i class="fab fa-github"></i>*/}
@@ -74,7 +74,7 @@ function Projects2() {
         <ScrollAnimation animateIn="flipInY">
           <div className = "project-card">
 
-            <img src = {FairPrivate}/>
+            <img src = {FairPrivate} alt="Project Graphic for Privacy and Fairness in ML"/>
             <div className = "links">
               <button><a href = "https://github.com/raphaelletseng/fairlearn-pytorch" target = "_blank" rel="noreferrer noopener">
                 code
@@ -123,7 +123,7 @@ function Projects2() {
   <ScrollAnimation animateIn="flipInY">
   <div className = "project-card">
 
-    <img src = {McGillAI} className = "graphic"/>
+    <img src = {McGillAI} alt="Project Graphic for McGillAI's website"/>
     <div className = "links">
       <button><a href = "https://github.com/McGillAISociety/mcgillaiwebsite" target = "_blank" rel="noreferrer noopener">
         code
@@ -159,7 +159,7 @@ function Projects2() {
 <div class="col">
 <ScrollAnimation animateIn="flipInY">
   <div className = "project-card">
-    <img src = {Kyc2}/>
+    <img src = {Kyc2} alt="Project Graphic for Know Your Company"/>
     <div className = "links">
       <button><a href = "https://github.com/cclin130/know_your_company" target="_blank" rel="noreferrer noopener">
         code
@@ -195,7 +195,7 @@ function Projects2() {
   <ScrollAnimation animateIn="flipInY">
     <div className = "project-card">
 
-      <img src = {McGillLearn}/>
+      <img src = {McGillLearn} alt="Project Graphic for McGill AI Learnathon"/>
       <div className = "links">
         <button><a href = "https://github.com/McGillAISociety/learnathon2020" target = "_blank" rel="noreferrer noopener">
           code
