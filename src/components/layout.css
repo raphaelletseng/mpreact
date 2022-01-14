@@ -148,6 +148,11 @@ body {
   font-size: 20px;
 }
 
+#about a {
+  color: #963406;
+  font-weight: bold;
+}
+
 #about .about-card {
   background-color: #fff;
   width: 100%;
