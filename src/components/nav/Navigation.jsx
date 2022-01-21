@@ -1,11 +1,19 @@
-import React from "react";
+import {React, useState} from "react";
 import { NavLink } from "react-router-dom";
 import "./nav.css";
 
 
 function Navigation() {
+  const [isActive, setActive] = useState(false)
+
+  function closeMenu(){
+    setActive(false)
+  }
+
   return (
     <section id="nav">
+
+
       <nav className="navbar navbar-expand-lg">
         <div className=" container">
           <a className = "navbar-brand" href= "/">
@@ -14,9 +22,15 @@ function Navigation() {
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon">
-                <i class="fas fa-bars"></i>
+              <div id = "menu" class = "menu-btn">
+                <div class= "menu-btn__burger"></div>
+              </div>
+
               </span>
+
           </button>
+
+
 
 
 
@@ -58,6 +72,8 @@ function Navigation() {
           </div>
         </div>
       </nav>
+
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 200 1440 250">
         <path
           fill="#edbe6e"

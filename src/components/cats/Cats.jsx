@@ -32,7 +32,7 @@ function Cats() {
                   />
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                   <div className = "cat-text">
                   <Subtitle subtitleColor = "#2b2b2b">Valentin</Subtitle>
                   <p> Valentin orange soft baby </p>
@@ -51,7 +51,7 @@ function Cats() {
                   <p> Kido regal gremlin panther </p>
                   </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 order-first order-md-last">
                   <img
                     class="img-fluid rounded mb-4 mb-lg-0 shadow mb-5 bg-white "
                     src={Kido}

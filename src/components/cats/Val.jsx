@@ -21,7 +21,9 @@ function Val() {
       ></path>
     </svg>
       <div class="container">
+
         <Subtitle subtitleColor="#2b2b2b">Valentin Baby </Subtitle>
+
 
         <p> Pictures of Val </p>
 
