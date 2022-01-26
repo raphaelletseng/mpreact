@@ -16,7 +16,7 @@ function Navigation() {
 
       <nav className="navbar navbar-expand-lg">
         <div className=" container">
-          <a className = "navbar-brand" href= "/">
+          <a className = "navbar-brand" href= "/mpreact">
             <i class="fas fa-home"></i>Raphaëlle Tseng
           </a>
 
@@ -37,12 +37,8 @@ function Navigation() {
           <div class="collapse navbar-collapse" id="navbarNav">
 
             <ul className="navbar-nav ml-auto">
-             <li className="nav-item">
-              <NavLink className="nav-link" to="/artwork">
-                <i class="fas fa-paint-brush"></i>
-                Art
-              </NavLink>
-            </li>
+
+
               <li className="nav-item">
                 <NavLink exact activeClassName="active" className="nav-link" to="/cats">
                   <i class="fa fa-paw"></i>
@@ -51,6 +47,12 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
+               <NavLink className="nav-link" to="/artwork">
+                 <i class="fas fa-paint-brush"></i>
+                 Art
+               </NavLink>
+             </li>
+            {/*  <li className="nav-item">
                 <a
                   className="nav-link"
                   href="https://raphaelletseng.github.io/art"
@@ -58,11 +60,11 @@ function Navigation() {
                   <i class="fa fa-palette"></i>
                   Art
                 </a>
-              </li>
+              </li>*/}
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="https://raphaelletseng.github.io/blog"
+                  href="https://raphaelletseng.github.io/blogposts"
                 >
                   <i class="fa fa-feather"></i>
                   Blog
