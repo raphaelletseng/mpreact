@@ -70,6 +70,15 @@ function Navigation() {
                   Blog
                 </a>
               </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="https://raphaelletseng.github.io/3js-space"
+                >
+                  <i class="fa fa-meteor"></i>
+                  3js Space
+                </a>
+              </li>
             </ul>
           </div>
         </div>
